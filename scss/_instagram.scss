@@ -1,0 +1,75 @@
+@import "vars";
+
+.instagram {
+    width: 1263px;
+    margin: 0;
+    margin-left: 31%;
+    margin-top: 49%;
+
+
+    &__title {
+        margin-left: 5%;
+        margin-top: 5%;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        width: 384px;
+        height: 112px;
+    }
+
+    &__bag2 {
+        background: #1F1E1E;
+        border-radius: 4px;
+        width: 167px;
+        height: 42px;
+        margin-left: 15%;
+        margin-top: 5.5%;
+    }
+
+    &__a2 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 39px;
+        padding: 0% 20%;
+        text-transform: uppercase;
+        color: $image;
+
+
+    }
+
+    &__photo {
+        display: flex;
+        justify-content: space-around;
+        margin-left: -23%;
+        margin-top: 41%;
+        align-items: flex-start;
+        gap: 5%;
+    }
+
+    &__hr1 {
+        margin-left: 2%;
+        margin-top: -20%;
+        width: 240px;
+        height: 1px;
+        color: #f8f0f0;
+    }
+
+    &__text1 {
+        margin-left: 4%;
+        margin-top: -2%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        width: 219px;
+    }
+
+    &__ver {
+        vertical-align: middle;
+        width: 12px;
+        height: 212px;
+    }
+}

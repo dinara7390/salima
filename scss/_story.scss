@@ -1,0 +1,141 @@
+@import "vars";
+
+.story {
+
+
+    .container {
+        width: 1263px;
+
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 29px;
+        line-height: 40px;
+        text-align: center;
+        margin-left: 11.5%;
+        margin-top: 9.3%;
+    }
+
+
+    &__flex {
+        display: flex;
+        margin-left: 10.5%;
+        margin-top: -5.5%;
+
+    }
+
+    &__img {
+        width: 540px;
+        margin-left: 4.5%;
+        margin-top: 7%;
+    }
+
+    &__about {
+        margin-left: 0%;
+        margin-top: 7%;
+        background: #D5D8D1;
+        border-radius: 4px;
+        width: 616px;
+        height: 540px;
+    }
+
+    &__star {
+        margin-left: 1.5%;
+        margin-top: 34%;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        margin-left: 15.5%;
+        margin-top: -2%;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 32px;
+        text-align: center;
+        width: 358px;
+
+    }
+
+    &__a {
+        margin-left: 42.5%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: center;
+    }
+
+    &__storyLogo {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -3.5%;
+        margin-top: 4.5%;
+    }
+
+    &__cleo {
+        margin-left: 12%;
+        margin-top: 0.5%;
+    }
+
+    &__cleo-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        margin-left: -13%;
+        margin-top: 3.8%;
+        text-align: center;
+        width: 272px;
+    }
+
+    &__arial {
+        margin-left: 6.4%;
+        margin-top: 0.5%;
+    }
+
+    &__arial-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        margin-left: -17%;
+        margin-top: 3.8%;
+        text-align: center;
+        width: 239px;
+    }
+
+    &__walden {
+        margin-left: 9%;
+        margin-top: 0.5%;
+    }
+
+    &__walden-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        margin-left: -28%;
+        margin-top: 4.5%;
+        text-align: center;
+        width: 256px;
+    }
+
+    &__petsPay {
+        margin-left: 6%;
+        margin-top: 0.5%;
+    }
+
+    &__petsPay-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        margin-left: -28%;
+        margin-top: 4.5%;
+        text-align: center;
+        width: 256px;
+    }
+
+
+
+}

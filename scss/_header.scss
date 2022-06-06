@@ -1,0 +1,199 @@
+@import "vars";
+
+
+.header {
+    margin: 0 0 0 17px;
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+        width: 980px;
+        align-items: center;
+    }
+
+    &__logo {
+        margin: 37px 581px 30px 180px;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -81px;
+        margin-top: 25px;
+    }
+
+    &__list {
+        margin-left: 40px;
+    }
+
+    &__hamburger {
+        display: none;
+    }
+
+    &__close {
+        display: none;
+    }
+
+
+    .container {
+        width: 1280px;
+        margin: 0 80px;
+    }
+
+    .header__blog {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        // grid-column-gap: 1em;
+        // grid-row-gap: 1em;
+        grid-gap: 1em;
+    }
+
+    &__blog1 {
+        position: relative;
+        // display: inline-block;
+        background-color: rgb(151, 125, 180);
+        grid-column: 1/4;
+        background-size: cover;
+        z-index: -1;
+        background-image: url("../img/header1.png");
+        width: 1280px;
+        height: 720px;
+        background-repeat: no-repeat;
+
+    }
+
+    &__text1 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: $image;
+        width: 459px;
+        text-align: center;
+        justify-content: start;
+        align-items: center;
+        margin-top: 17%;
+        margin-left: 7%;
+
+    }
+
+    &__title1 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        color: $image;
+        width: 459px;
+        text-align: center;
+        justify-content: start;
+        align-items: center;
+        margin-top: 1%;
+        margin-left: 7%;
+    }
+
+    &__toggle1 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: $image;
+        width: 459px;
+        width: 136px;
+        height: 12px;
+        padding: 13px 30px;
+
+    }
+
+    &__border {
+        width: 196px;
+        height: 42px;
+        background-color: #1F1E1E;
+        border-radius: 4px;
+        margin: 12% 17.5%;
+    }
+
+    &__blog2 {
+        background-image: url("../img/header2.png");
+        grid-column: 1/2;
+        background-repeat: no-repeat;
+        width: 636px;
+        height: 636px;
+    }
+
+    &__blog3 {
+        background-image: url("/img/header3.png");
+        grid-column: 2/4;
+        background-repeat: no-repeat;
+        width: 636px;
+        height: 636px;
+    }
+
+    &__title2 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 41px;
+        line-height: 44px;
+        color: $image;
+        align-items: end;
+        margin-top: 80%;
+        margin-left: 7%;
+
+    }
+
+    &__title3 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 41px;
+        line-height: 44px;
+        color: $image;
+        align-items: end;
+        margin-top: 80%;
+        margin-left: 5.5%;
+
+    }
+
+    &__a2 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: $image;
+        margin-left: 5%;
+        margin-top: 5%;
+
+    }
+
+    &__a3 {
+        font-family: $main-font;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 14px;
+        text-transform: uppercase;
+        color: $image;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    hr {
+        background: rgba(255, 255, 255, 0.24);
+        width: 548px;
+        height: 1px;
+        margin: -4% 1%;
+    }
+}
