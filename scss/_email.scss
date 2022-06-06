@@ -1,0 +1,148 @@
+@import "vars";
+
+.email {
+    width: 1263px;
+    margin: 0;
+    margin-left: 5%;
+    margin-top: 36.5%;
+
+    &__hr-horizontal {
+        width: 1263px;
+        height: 1px;
+        margin-left: 1%;
+        margin-top: 1px;
+    }
+
+    &__flex {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 6%;
+        margin-top: 4%;
+
+
+    }
+
+    &__about {
+        width: 50%;
+    }
+
+    &__title {
+        font-weight: 400;
+        font-size: 33px;
+        line-height: 45px;
+        margin-left: -13%;
+        margin-top: 2.5%;
+        width: 386px;
+    }
+
+    &__text {
+        margin-left: -76px;
+        margin-top: 85px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+
+    &__span {
+        color: #B6ACA9;
+    }
+
+    &__text2 {
+        margin-left: -76px;
+        margin-top: -10px;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+
+    &__vertical {
+        vertical-align: middle;
+        width: 1px;
+        height: 257px;
+        margin-left: 107px;
+        margin-top: -20px;
+    }
+
+    &__link {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        width: 50%;
+
+    }
+
+    &__link-title {
+        margin-left: 61px;
+        margin-top: 21px;
+    }
+
+    &__flex-menu {
+        display: flex;
+        justify-content: space-between;
+        color: #1F1E1E;
+        line-height: 24px;
+    }
+
+    &__list-body1 {
+        margin-left: 61px;
+        margin-top: 29px;
+    }
+
+    &__list-body2 {
+        margin-left: -33px;
+        margin-top: 26px;
+    }
+
+    &__list-body3 {
+        padding: 0 6% 0 0;
+        margin-top: 26px;
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 1%;
+        margin-top: 1%;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    &__post-img {
+        margin-left: 47%;
+        margin-top: 28%;
+    }
+
+    &__post-link {
+        margin-left: 28%;
+    }
+
+
+    &__location-img {
+        margin-left: -29%;
+        margin-top: 27%;
+    }
+
+    &__location-text {
+        margin-left: -20%;
+        margin-top: -2.2%;
+        width: 272px;
+        text-align: center;
+    }
+
+
+    &__phone-img {
+        margin-left: -110%;
+        margin-top: 38%;
+    }
+
+    &__phone-link {
+        margin-left: -116%;
+        margin-top: 0%;
+    }
+
+}

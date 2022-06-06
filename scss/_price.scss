@@ -1,0 +1,82 @@
+@import "vars";
+
+.price {
+    .container {
+        width: 1263px;
+        margin: 0;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 0 6.5%;
+
+    }
+
+    .overlay {
+        position: relative;
+        z-index: 1;
+        background-color: rgb(223, 226, 225);
+    }
+
+    &__hard-img {
+        margin-left: -1%;
+        margin-top: -3%;
+    }
+
+    &__text {
+        margin-right: 5%;
+        margin-top: 2%;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    span {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    &__span {
+        margin-left: 20%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    &__bomb-img {
+        margin-left: 1%;
+        margin-top: -2%;
+    }
+
+    &__text-bomb {
+        margin-left: 1%;
+        margin-top: 1.5%;
+    }
+
+    &__bomb-span {
+        margin-left: 52%;
+    }
+
+    &__charm {
+        margin-left: 5%;
+        margin-top: 1.5%;
+    }
+
+    &__charm-img {
+        margin-left: -1%;
+        margin-top: -4%;
+    }
+
+    &__text-charm {
+        margin-left: -1.5%;
+        margin-top: 1.5%;
+    }
+
+    &__charm-span {
+        margin-left: 44%;
+        margin-top: 1.5%;
+    }
+}

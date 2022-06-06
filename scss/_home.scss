@@ -1,0 +1,152 @@
+@import "vars";
+
+.home {
+    margin-left: 4.5%;
+    margin-top: 7%;
+
+    &__flex {
+        display: flex;
+        // justify-content: space-between;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 54px;
+        line-height: 56px;
+        margin-left: 4.4%;
+        margin-top: 4.9%;
+        width: 316px;
+    }
+
+    &__about {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 27px;
+        letter-spacing: 0.4px;
+        width: 413px;
+        margin-left: 5.5%;
+        margin-top: -4%;
+    }
+
+    &__first {
+        display: flex;
+        margin-left: 24.3%;
+        margin-top: 3.8%;
+        background-repeat: no-repeat;
+        z-index: -1;
+        // background-image: url(/img/home1.png);
+        position: relative;
+        // width: 300px;
+    }
+
+    &__first-simvol {
+        width: 26px;
+        height: 25px;
+        margin-left: -61%;
+        margin-top: -3%;
+    }
+
+
+
+    &__first-text {
+        width: 165px;
+        margin-left: 88%;
+        margin-top: 31%;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        margin-top: 24%;
+        margin-left: 62%;
+
+    }
+
+    &__second {
+        display: flex;
+        margin-left: 13%;
+        margin-top: 5%;
+        // background-image: url(/img/home2.png);
+        background-repeat: no-repeat;
+    }
+
+    &__second-img {
+        width: 363px;
+        height: 363px;
+        margin-left: 0.1%;
+        margin-top: -0.2%;
+    }
+
+    &__second-img-simvol {
+        margin-left: -67.5%;
+        margin-top: -2.3%;
+        width: 26px;
+        height: 25px;
+    }
+
+    &__second-text {
+        font-weight: 400;
+        width: 172px;
+        text-transform: uppercase;
+        font-size: 12px;
+        margin-left: 67.8%;
+        margin-top: 29.8%;
+    }
+
+
+    &__flex2 {
+        display: flex;
+
+    }
+
+    &__third {
+        display: flex;
+        width: 100%;
+        margin-left: 11%;
+        margin-top: 17%
+    }
+
+    &__third-img {
+        width: 267px;
+        height: 267px;
+    }
+
+    &__third-img-simvol {
+        margin-left: -68.3%;
+        margin-top: -2.8%;
+        width: 25px;
+        height: 25px;
+    }
+
+    &__third-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+        margin-left: 70%;
+        margin-top: 30%;
+    }
+
+    &__fourth {
+        margin-left: 31%;
+        margin-top: 5%;
+        display: flex;
+    }
+
+    &__fourth-img-simvol {
+        width: 25px;
+        height: 25px;
+        margin-left: -42%;
+        margin-top: -1%;
+    }
+
+    &__fourth-text {
+        margin-left: 42.8%;
+        margin-top: 19.2%;
+        width: 149px;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+}

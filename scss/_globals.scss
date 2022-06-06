@@ -1,0 +1,27 @@
+@import "vars";
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    color: #1F1E1E;
+    // font-family: @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+}
+
+a,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1280px;
+}
